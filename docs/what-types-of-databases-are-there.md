@@ -16,4 +16,6 @@ There are various types of databases, each designed to cater to specific data st
 
 - Time-Series Database: Time-series databases specialize in storing and analyzing time-stamped data points. They are commonly used in applications that handle large amounts of time-series data, such as IoT systems, financial markets, and sensor data analysis.
 
+- Graph databases: Next, we have graph databases. A graph database's purpose is to make it easy to build and run applications that work with highly connected data sets. Typical use cases for a graph database include social networking, recommendation engines, fraud detection, and knowledge graphs. Amazon Neptune is a fully managed graph database service. Neptune supports both the Property Graph model and the Resource Description Framework (RDF), giving you the choice of two graph APIs: TinkerPop and RDF/SPARQL. Startups use Amazon Neptune to build knowledge graphs, make in-game offer recommendations, and detect fraud.
+
 These are just a few examples of the types of databases available. Each type has its own strengths and is chosen based on the specific requirements of the application or system being developed.
