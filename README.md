@@ -2,6 +2,8 @@
 
 How to choose database for your application?
 
+## [Outline of research paper](./docs/outline.md)
+
 ## [What is a database?](./docs/what-is-a-database.md)
 
 ## [What types of databases are there?](./docs/what-types-of-databases-are-there.md)
