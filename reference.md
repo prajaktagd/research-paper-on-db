@@ -8,3 +8,4 @@ Add the content link with the proper name here:
 - [Data Categories](https://aws.amazon.com/startups/start-building/how-to-choose-a-database/)
 - [How to efficiently choose a database](https://www.pingcap.com/blog/how-to-efficiently-choose-the-right-database-for-your-applications/)
 - [What is data concurrency?](https://www.indicative.com/resource/data-concurrency/)
+- [Evolution of database](https://intellipaat.com/blog/what-is-database/)
