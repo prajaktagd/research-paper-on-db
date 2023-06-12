@@ -56,3 +56,16 @@ There are two type of database concurrency used in businesses daily:
 - Coexistent Query Workload – This type of concurrency is a fundamental measure of system performance. Businesses use the term “concurrency” to measure how many units of work are co-executing actively and simultaneously progressing at the same time.
 
 For example, when one user is changing data but has not yet saved (committed) that data, then the database should not allow other users who query the same data to view the changed, unsaved data. Instead the user should only view the original data.
+
+### Load
+Estimated the load is often treated as a server sizing exercise before installing production database. Unfortunately, many databases can't handle thousands of queries because of scaling issues.
+
+Database load measures the level of activity in the database. For that measurement there will be question like - How is the database performing? And this can be measured by different units.
+
+There are few units that helps measuring the load a database can take:
+
+- Queries Per Second (QPS) - This unit refers to how many queries the database can execute in a given period of time? The kind of queries is not same all the time, it can be simple from some user or complex from another user. In the real world, database load fluctuates. The focus is to compare performances between different set of configuration over a different period of time with different query mix.
+
+- Transactions Per Second (TPS) - This unit refers to how many transactions an user can execute in a given time period? But this units also contains same sets of issues as QPS. There will be different sets of transactions on different period of time, so calculating transactions may work a given period of time but actually hards to compare the result over time.
+
+- Latency - This unit refers to a different perspective of the database. There can be questions like - would user like to be ok to improve QPS by 30%, if user would have to wait twice as long for a given query to complete? User needs to keep in mind that for most of the cases, databases are using one CPU core for one query. There are some situations where multiple queries can process parallely in one core but that's actually a rare case. The fastest we can run the queries the more queries we can run. So, In one hand we are minimizing the query execution time and on the other hand we are maximizing the total throughput. That way we can handle more number of user or workload in less amount time.
