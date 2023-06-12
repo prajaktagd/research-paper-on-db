@@ -43,3 +43,16 @@ Setup, configuration and fine tuning of databases is a lengthy and risky ordeal.
 If you choose a managed cloud solution, What are the costs? What are its limitations?
 
 The payment model for managed cloud solutions is usually proportional to the read/write traffic. Make sure to read the finer print for each managed solution and make sure that it is cost-effective for your specific read/write usage patterns.
+
+### Concurrency
+Data concurrency is the ability to allow multiple users to affect multiple transaction within a database. Simply, data concurrency allows multiple users to access data all at the same time.
+
+The ability to offer concurrency is unique to databases. Almost all databases deal with concurrency the same way, with the general principle being that the unsaved changed data is held in a type of temporary log or file. Once the data is saved, it is then written into the database’s physical storage in place of the original data.
+
+There are two type of database concurrency used in businesses daily:
+
+- Simultaneous Access To Data – This kind of concurrency is important because it’s all about multiple users accessing data at the same time without causing inconsistencies.
+
+- Coexistent Query Workload – This type of concurrency is a fundamental measure of system performance. Businesses use the term “concurrency” to measure how many units of work are co-executing actively and simultaneously progressing at the same time.
+
+For example, when one user is changing data but has not yet saved (committed) that data, then the database should not allow other users who query the same data to view the changed, unsaved data. Instead the user should only view the original data.
