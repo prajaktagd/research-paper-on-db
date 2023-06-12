@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: docs/research-paper.md
+  checksum: 1573cfda8c79a1c98f46c37f3e1ef0493cca778bb84bf88ef9a3322db1d7ab71
+version: "1.0"

@@ -9,3 +9,6 @@ Add the content link with the proper name here:
 - [How to efficiently choose a database](https://www.pingcap.com/blog/how-to-efficiently-choose-the-right-database-for-your-applications/)
 - [What is data concurrency?](https://www.indicative.com/resource/data-concurrency/)
 - [Evolution of database](https://intellipaat.com/blog/what-is-database/)
+- [Types of databases](https://phoenixnap.com/kb/database-types)
+- [What is a relational database](https://www.oracle.com/in/database/what-is-a-relational-database/)
+- [Non-relational database](https://aws.amazon.com/nosql)
