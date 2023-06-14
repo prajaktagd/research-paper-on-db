@@ -66,3 +66,33 @@ A centralised database is a database in which the data required to complete all 
 **Distributed**
 
 Distributed databases store information across different physical sites. The database resides on multiple CPUs on a single site or spread out across various locations. Due to the connections between the distributed databases, the information appears as a single database to end-users. Additionally, if one database fails, users can still access the system through other systems. Common examples of distributed databases include Apache Ignite, Apache Cassandra, Couchbase Server, etc.
+
+### Design
+
+**OLTP**
+
+Online Transaction Processing (OLTP) is a type of database system used in transaction-oriented applications, such as many operational systems. 'Online' refers to that such systems are expected to respond to user requests and process them in real-time. Online transaction processing systems are used in business for handling processes like financial transactions, order entries, customer relationship management, and retail sales. OLTP databases need to be ACID-compliant as well. ACID refers to a standardized set of properties that guarantee database transactions are processed reliably, accurately, and consistently.
+
+**OLAP**
+
+Online Analytical Processing (OLAP) is software technology you can use to analyze business data from different points of view. Organizations collect and store data from multiple data sources, such as websites, applications, smart meters, and internal systems. OLAP combines and groups this data into categories to provide actionable insights for strategic planning. For example, a retailer stores data about all the products it sells, such as color, size, cost, and location. The retailer also collects customer purchase data, such as the name of the items ordered and total sales value, in a different system. OLAP combines the datasets to answer questions such as which color products are more popular or how product placement impacts sales.
+
+### Hosting
+
+**On-premises**
+
+On-premises software is installed and runs on computers on the premises of the person or organization using the software, rather than at a remote facility such as a server farm or cloud. Businesses have more control of on-premises assets by maintaining the performance, security and upkeep, as well as the physical location.
+
+**Cloud**
+
+A cloud database is a database built to run in a public or hybrid cloud environment to help organize, store, and manage data within an organization. Cloud databases organize and store structured, unstructured, and semi-structured data just like traditional on-premises databases. However, they also provide many of the same benefits of cloud computing, including speed, scalability, agility and reduced costs. Popular cloud databases are Microsoft Azure, Amazon Web Service (AWS), Google cloud, etc.
+
+### Processing power
+
+**Personal**
+
+Personal databases have single-user access and process on low to medium-powered machines. Simpler database applications benefit from this database type due to the low cost and maintenance.
+
+**Commercial**
+
+A commercial database has multiple users with various permissions as well as numerous applications on high-powered machines. High availability commercial databases are costly and require constant maintenance as well as support.
