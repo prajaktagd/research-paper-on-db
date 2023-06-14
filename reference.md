@@ -12,3 +12,5 @@ Add the content link with the proper name here:
 - [Types of databases](https://phoenixnap.com/kb/database-types)
 - [What is a relational database](https://www.oracle.com/in/database/what-is-a-relational-database/)
 - [Non-relational database](https://aws.amazon.com/nosql)
+- [ODBMS](https://databasetown.com/object-oriented-database/)
+- [Location databases](https://www.insightsforprofessionals.com/it/storage/distributed-vs-centralized-database#:~:text=Examples%20of%20a%20centralized%20database,as%20a%20LAN%20or%20WAN.)
