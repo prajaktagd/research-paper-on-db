@@ -96,3 +96,17 @@ Personal databases have single-user access and process on low to medium-powered 
 **Commercial**
 
 A commercial database has multiple users with various permissions as well as numerous applications on high-powered machines. High availability commercial databases are costly and require constant maintenance as well as support.
+
+## Database selection criteria
+
+Consider the following criteria for choosing the right database for your application:
+
+### Cost
+
+Cost is always a huge factor and something to consider for a database system. But the cost goes beyond the obvious license costs which need to be considered and evaluated based on the value that is added.
+
+- For buying a software license in the market, there is a large upfront fee usually in the hundreds of thousands of dollars plus a support and maintenance fee.
+- There is another cost that is attached while selecting a database that is hardware cost. There is need to consider how much infrastructure needed to buy to run the database system, or if considering a cloud service, whether it adds enough value compared to an on-premises installation.
+- On top of hardware and software costs, there are day-to-day costs incurred by running the database. These costs come under operational cost, which has the following things under it:
+  - The cost of a temporary or catastrophic challenge needs to be considered when choosing your database for your application. Some of the disasters are old versions, write bottlenecks, memory issues, locked transactions, misconfigurations and hardware failure.
+  - Your database does not exist in a vacuum instead integrated with different parts of your IT platform. So, integration between your database and other tools is important and can be costly depending on the database.

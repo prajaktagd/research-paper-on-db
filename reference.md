@@ -18,3 +18,6 @@ Add the content link with the proper name here:
 - [Cloud](https://cloud.google.com/learn/what-is-a-cloud-database#:~:text=A%20cloud%20database%20is%20a,like%20traditional%20on%2Dpremises%20databases.)
 - [Database Security](https://www.ibm.com/topics/database-security)
 - [Replication](https://www.integrate.io/glossary/what-is-database-replication/)
+- [Cost](https://www.cockroachlabs.com/blog/true-cost-cloud-database/)
+- [Hosting](https://www.datavail.com/blog/database-hosting-services/)
+

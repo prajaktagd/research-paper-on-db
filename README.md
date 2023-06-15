@@ -12,6 +12,8 @@ How to choose database for your application?
 
 ## [Examples of each type](./docs/examples-of-each-type.md)
 
+## [Research Paper](./docs/research-paper.md)
+
 ## Flowchart
 
 ![Flowchart](./imgs/choose-db.webp)

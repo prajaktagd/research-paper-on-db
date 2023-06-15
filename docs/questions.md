@@ -1,0 +1,22 @@
+- How much data we need to store?
+- How much will be live traffic?
+- What is read and write ratio?
+- What kind of application you have?
+- CAP(Consistency, Availability, Partition) consideration.
+- What is your programming language?
+- Do you have budget for support?
+- How much data do you expect to store(GB/TB/PB, etc.) when the application is mature?
+- What is the type of data you are going to store (simple or complex data structures, etc.)
+- How many users do you expect to handle simultaneously at peak load?
+- What availability(eg. 99.999%), scalability, latency, and data consistency does your application need?
+- How often will your database schemas change?
+- What is the average response time needed for the queries?
+- Will you require a real-time consistent database or is some lag permissible?
+- What is the geographic distribution of your user population?
+- What is the natural “shape” of your data?
+- Does your application need online transaction processing (OLTP), analytic queries (OLAP), or both?
+- What ratio of reads to writes do you expect in production?
+- What are your preferred programming languages?
+- Do you have a budget? If so, will it cover licenses and support contracts?
+- How strict are you with invalid data being sent to your database? (Ideally, you are very strict and do server-side data validation before persisting it to your database)
+- What is the level of regulation and compliance that the database needs to adhere to?
