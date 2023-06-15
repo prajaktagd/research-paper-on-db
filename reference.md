@@ -19,3 +19,5 @@ Add the content link with the proper name here:
 - [Database Security](https://www.ibm.com/topics/database-security)
 - [Replication](https://www.integrate.io/glossary/what-is-database-replication/)
 - [Cost](https://www.cockroachlabs.com/blog/true-cost-cloud-database/)
+- [Hosting](https://www.datavail.com/blog/database-hosting-services/)
+
