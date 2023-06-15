@@ -96,3 +96,11 @@ There are effects of Data Localization, depending on the context in which it is 
 - **Limited Access** - Data Localization can limit access to data as it may not be accessible to users outside the country or region in which it is stored.
 
 - **Complexity** - It can also be complex to implement as it involves transferring data between different locations.
+
+---
+### API Compatibility
+API compatibility of database refers to the ability of different versions of a database to interact with each other using a consistent set of **Application Programming Interfaces**(APIs). API Compatibility ensures that applications built in one version can seamlessly migrate with another version without significant modifications. The level of the API Compatibility can vary depending on the specific database management system(DBMS) being used. Some databases like MySQL and PostgreSQL, have well-defined and widely adopted APIs which are supported by various programming languages and frameworks.
+
+On the other hand, proprietary databases with unique features may have their own APIs that are specific to that particular system. In such cases compatibility may be limited to the applications developed for that database.
+
+To ensure API Compatibility, it is important to consider factor like version of the database software, language and framework being used. It is beneficial to consider the documentation and resources provided by the database to understand the APIs and its compatibility.
