@@ -3,18 +3,22 @@
 Consider the following criteria for choosing the right database technology for your service:
 
 ### Query Patterns
+
 The way of fetching the data is one of the main ways to find the best database for a particular use case. Some of the databases that can be used for fetching the data are listed below :
+
 - **Key-value store :** Key-value store is used to fetch the data using key.
 - **Wide-column databases :** Sometimes one or more fields are used to fetch the data, then wide-column databases can be used.
 - **Document or relational database :** There might a requirement to query using many different fields, then document or relational database can be used.
 - **Search engines :** In case of a fuzzy search query capabilities or free text search, search engines can be used.
 
 ### Consistency
+
 Is strong consistency required (read after write, especially when you switch writes to a different data-center) or eventual consistency is OK?
 
 In case you need to read your data right after your write it (i.e. strong consistency) than a Relational database (e.g. MySQL, PostgreSQL) is usually more suited than a Document Database (e.g.MongoDB, CouchDB), especially in case of multi-data-center scenario.
 
 ### Storage Capacity
+
 How much storage capacity is needed?
 
 Most database systems are limited by the amount of space on disk (e.g. MySQL) or struggle with performance as amount of Nodes and Shards grows into the hundreds (e.g. Elasticsearch).
@@ -22,6 +26,7 @@ Most database systems are limited by the amount of space on disk (e.g. MySQL) or
 When infinite storage is needed this is where cloud solutions shine. Object Storage Services like S3 and GCS will allow you to store as much data as you like with the handy option is multiple tiers, so you pay less for data that is rarely retrieved.
 
 ### Performance
+
 What is the needed throughput and latency?
 
 All databases performance degrades as the amount of read/write throughput traffic increases. This is the time when optimizations such as re-indexing and re-sharding of your data come in handy.
@@ -29,6 +34,7 @@ All databases performance degrades as the amount of read/write throughput traffi
 In case you have very high traffic and require very low latency, Cloud providers solutions like Amazon’s DynamoDB and Google’s Bigtable could be just what you need. As long as your service is deployed on the same data center as the database, you can enjoy latencies that are under 10ms. The downside is of-course the $ cost.
 
 ### Maturity and Stability
+
 If you choose self-hosted deployment, How much experience does your DBA team have with this technology, how mature is it?
 
 Choosing the most trendy, powerful, and fully featured database to self-host maybe tempting, but as long as your orgainization doesn’t have experience with this database, you may end up regretting it.
@@ -36,11 +42,13 @@ Choosing the most trendy, powerful, and fully featured database to self-host may
 Setup, configuration and fine tuning of databases is a lengthy and risky ordeal. Sometimes choosing the “old” organization self-hosted work-horse will pay bigger dividends in the long term when it comes to production stability.
 
 ### Cost
+
 If you choose a managed cloud solution, What are the costs? What are its limitations?
 
 The payment model for managed cloud solutions is usually proportional to the read/write traffic. Make sure to read the finer print for each managed solution and make sure that it is cost-effective for your specific read/write usage patterns.
 
 ### Concurrency
+
 Data concurrency is the ability to allow multiple users to affect multiple transaction within a database. Simply, data concurrency allows multiple users to access data all at the same time.
 
 The ability to offer concurrency is unique to databases. Almost all databases deal with concurrency the same way, with the general principle being that the unsaved changed data is held in a type of temporary log or file. Once the data is saved, it is then written into the database’s physical storage in place of the original data.
@@ -54,6 +62,7 @@ There are two type of database concurrency used in businesses daily:
 For example, when one user is changing data but has not yet saved (committed) that data, then the database should not allow other users who query the same data to view the changed, unsaved data. Instead the user should only view the original data.
 
 ### Load
+
 Estimated the load is often treated as a server sizing exercise before installing production database. Unfortunately, many databases can't handle thousands of queries because of scaling issues.
 
 Database load measures the level of activity in the database. For that measurement there will be question like - How is the database performing? And this can be measured by different units.
