@@ -17,3 +17,4 @@ Add the content link with the proper name here:
 - [OLAP](<https://aws.amazon.com/what-is/olap/#:~:text=Online%20analytical%20processing%20(OLAP)%20is,smart%20meters%2C%20and%20internal%20systems.>)
 - [Cloud](https://cloud.google.com/learn/what-is-a-cloud-database#:~:text=A%20cloud%20database%20is%20a,like%20traditional%20on%2Dpremises%20databases.)
 - [Database Security](https://www.ibm.com/topics/database-security)
+- [Replication](https://www.integrate.io/glossary/what-is-database-replication/)
