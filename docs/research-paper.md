@@ -101,6 +101,15 @@ A commercial database has multiple users with various permissions as well as num
 
 Consider the following criteria for choosing the right database for your application:
 
+### CAP consideration
+
+CAP stands for Consistency, Availability, and Partition tolerance. The theorem states that you cannot achieve all the properties at the best level in a single database, as there are natural trade offs between the items. You can only pick two out of three at a time and that totally depends on your prioritize based on your requirements. For example, if your system needs to be available and partition tolerant, then you must be willing to accept some latency in your consistency requirements.
+Traditional relational databases are a natural fit for the CA side whereas non-relational database engines mostly satisfy AP and CP requirements.
+
+- Consistency means that any read request will return the most recent write. Data consistency is usually “strong” for SQL databases and for NoSQL database consistency may be anything from 'eventual' to 'strong'.
+- Availability means that a non-responding node must respond in a reasonable amount of time. Not every application needs to run 24/7 with 99.999% availability but most likely you will prefer a database with higher availability.
+- Partition tolerance means the system will continue to operate despite network or node failures.
+
 ### Cost
 
 Cost is always a huge factor and something to consider for a database system. But the cost goes beyond the obvious license costs which need to be considered and evaluated based on the value that is added.
@@ -132,17 +141,45 @@ Most database systems are limited by the amount of space on disk or struggle wit
 
 Security of databases refers to the array of controls, tools, and procedures designed to ensure and safeguard confidentiality, integrity, and accessibility. Security of databases is a complicated and challenging task that requires all aspects of security practices and technologies. The more usable and accessible the database is, the more susceptible we are to threats from security.
 
-#### Why Database Security is Important?
+**Why Database Security is Important?**
 
 - Recovering reputation after customer's data leak is difficult
 - Penalties or fines are to be paid for not complying with international regulations.
 - Costs for repairing breaches and notifying consumers about them is high
 - Business can be on hold until the breach is resolved.
 
-#### Common Threats and Challenges
+**Common Threats and Challenges**
 
 - An insider threat can be an attack on security from any sources having an access privilege to the database.
 - Exploitation of Database Software Vulnerabilities
-- SQL/NoSQL Injection Attacks 
+- SQL/NoSQL Injection Attacks
 - Buffer Overflow Attacks
-- Denial of service (DoS/DDoS) attacks 
+- Denial of service (DoS/DDoS) attacks
+
+### Performance
+
+Performance is another essential factor in choosing a database. It directly impacts the user experience. Query efficiency and the balance between read and write performance should be considered.
+
+Five factors influence database performance: workload, throughput, optimization and contention.
+
+- Workload: Workload measures the level of activity in the database. There are few units that helps measuring the load a database can take:
+  - Queries Per Second (QPS) - This unit refers to how many queries the database can execute in a given period of time.
+  - Transactions Per Second (TPS) - This unit refers to how many transactions an user can execute in a given time period.
+  - Latency - Latency is the amount of time taken to process a query.
+- Throughput: Throughput defines the overall capability of the hardware and software to process data. It depends on I/O speed, CPU, parallel capabilities of the machine and the efficiency of the operating system. The higher the throughput a database can handle, the more users can simultaneously query it without hurdling the speed of processing.
+- Optimization: All types of systems can be optimized, but many database systems can perform query optimization primarily accomplished internal to the DBMS. Yet there are other factors that need to be optimized (SQL formulation, database parameters, database organization, etc.) to enable the database optimizer to create the most efficient access paths to the data.
+- Contention: When the demand for a particular resource is high, contention can result. Contention is the condition in which two or more components of the workload are attempting to use a single resource in a conflicting way. As contention increases, throughput decreases.
+
+Therefore, database performance can be defined as the optimization of resource use to increase throughput and minimize contention, enabling the largest possible workload to be processed.
+
+### Concurrency
+
+Data concurrency is the ability to allow multiple users to affect multiple transaction within a database. Simply, data concurrency allows multiple users to access data at the same time.
+
+There are two type of database concurrency used in businesses daily:
+
+- Simultaneous access to data – This kind of concurrency is important because it’s all about multiple users accessing data at the same time without causing inconsistencies.
+
+- Coexistent query workload – This type of concurrency is a fundamental measure of system performance. Businesses use the term 'concurrency' to measure how many units of work are co-executing actively and simultaneously progressing at the same time.
+
+For example, when one user is changing data but has not yet saved that data, then the database should not allow other users who query the same data to view the changed, unsaved data. Instead the user should only view the original data.
