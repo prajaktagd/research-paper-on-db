@@ -106,7 +106,32 @@ Consider the following criteria for choosing the right database for your applica
 Cost is always a huge factor and something to consider for a database system. But the cost goes beyond the obvious license costs which need to be considered and evaluated based on the value that is added.
 
 - For buying a software license in the market, there is a large upfront fee usually in the hundreds of thousands of dollars plus a support and maintenance fee.
-- There is another cost that is attached while selecting a database that is hardware cost. There is need to consider how much infrastructure needed to buy to run the database system, or if considering a cloud service, whether it adds enough value compared to an on-premises installation.
+- There is another cost that is attached while selecting a database that is hardware cost. There is need to consider how much infrastructure needed to buy to run the database system, or if considering a cloud service, consider the cost of hosting the database, whether it adds enough value compared to an on-premises installation.
 - On top of hardware and software costs, there are day-to-day costs incurred by running the database. These costs come under operational cost, which has the following things under it:
   - The cost of a temporary or catastrophic challenge needs to be considered when choosing your database for your application. Some of the disasters are old versions, write bottlenecks, memory issues, locked transactions, misconfigurations and hardware failure.
   - Your database does not exist in a vacuum instead integrated with different parts of your IT platform. So, integration between your database and other tools is important and can be costly depending on the database.
+
+### Query Patterns
+
+The way of fetching the data is one of the main ways to find the best database for a particular use case. Some of the types of databases that can be used for fetching the data are listed below :
+
+- **Key-value store:** Key-value store is used to fetch the data using key.
+- **Wide-column databases:** Sometimes one or more fields are used to fetch the data, then wide-column databases can be used.
+- **Document or relational databases:** There might be a requirement to query using many different fields, then document or relational database can be used.
+- **Search engines:** In case of a fuzzy search query capabilities or free text search, search engines can be used.
+
+### Storage Capacity
+
+Most database systems are limited by the amount of space on disk or struggle with performance as amount of nodes and shards grows into the hundreds.
+
+When infinite storage is needed this is where cloud solutions shine. Object Storage Services like S3 and GCS will allow you to store as much data as you like with the handy option of multiple tiers, so you pay less for data that is rarely retrieved.
+
+Some of the things that can be taken into consideration while choosing database:
+
+- If the data volume fits within gigabytes or less, then any database like in-memory databases should suffice. VoltDB and MemSQL can be used here.
+- If the data volume is in the terabytes range, which is equivalent to thousands of gigabytes, there are many more options available.
+- If the data volume grows and touches petabytes, which are millions of gigabytes, then the options of databases shrink. PostgreSQL and Oracle are some of the databases that can be used.
+
+### Security
+
+Security of databases refers to the array of controls, tools, and procedures designed to ensure and safeguard confidentiality, integrity, and accessibility. Security of databases is a complicated and challenging task that requires all aspects of security practices and technologies. The more usable and accessible the database is, the more susceptible we are to threats from security.

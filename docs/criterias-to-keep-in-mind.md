@@ -23,7 +23,7 @@ How much storage capacity is needed?
 
 Most database systems are limited by the amount of space on disk (e.g. MySQL) or struggle with performance as amount of Nodes and Shards grows into the hundreds (e.g. Elasticsearch).
 
-When infinite storage is needed this is where cloud solutions shine. Object Storage Services like S3 and GCS will allow you to store as much data as you like with the handy option is multiple tiers, so you pay less for data that is rarely retrieved.
+When infinite storage is needed this is where cloud solutions shine. Object Storage Services like S3 and GCS will allow you to store as much data as you like with the handy option of multiple tiers, so you pay less for data that is rarely retrieved.
 
 ### Performance
 
