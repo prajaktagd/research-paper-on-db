@@ -183,3 +183,16 @@ There are two type of database concurrency used in businesses daily:
 - Coexistent query workload – This type of concurrency is a fundamental measure of system performance. Businesses use the term 'concurrency' to measure how many units of work are co-executing actively and simultaneously progressing at the same time.
 
 For example, when one user is changing data but has not yet saved that data, then the database should not allow other users who query the same data to view the changed, unsaved data. Instead the user should only view the original data.
+
+### Data localization
+
+Data localization is the act of storing the data on any physical device that is present within the borders of a specific country where the data was generated. Free flow of digital data which could impact government operations in a region is restricted by the government. This attempt of providing security for data across borders encourages **data localization**.
+
+While some arguments support data localization, some feel that data localization could have serious harmful consequences to citizens and economics. There are effects of data localization, depending on the context in which it is used. Some of those effects are as follows:
+
+- **Data security** - Data localization can enhance the security of data by keeping it within the borders of a particular country. This is particularly important to handle sensitive information.
+- **Economic considerations** - Data localization can provide economic benefits, which helps in economic growth of a particular country.
+- **Improved performance** - Data localization can improve the performance of online applications and websites, by keeping data closer to users.
+- **Cost** - One of the main challenge in data localization is cost, which includes building or renting data centers, as well as cost of complying with multiple laws and regulations.
+- **Limited Access** - Data localization can limit access to data as it may not be accessible to users outside the country or region in which it is stored.
+- **Complexity** - It can also be complex to implement as it involves transferring data between different locations.
