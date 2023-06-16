@@ -122,14 +122,10 @@ The way of fetching the data is one of the main ways to find the best database f
 
 ### Storage Capacity
 
-Most database systems are limited by the amount of space on disk or struggle with performance as amount of nodes and shards grows into the hundreds.
-
-When infinite storage is needed this is where cloud solutions shine. Object Storage Services like S3 and GCS will allow you to store as much data as you like with the handy option of multiple tiers, so you pay less for data that is rarely retrieved.
-
-Some of the things that can be taken into consideration while choosing database:
+Most database systems are limited by the amount of space on disk or struggle with performance as amount of nodes and shards grows into the hundreds. Some of the things that can be taken into consideration while choosing database:
 
 - If the data volume fits within gigabytes or less, then any database like in-memory databases should suffice. VoltDB and MemSQL can be used here.
-- If the data volume is in the terabytes range, which is equivalent to thousands of gigabytes, there are many more options available.
+- If the data volume is in the terabytes range, which is equivalent to thousands of gigabytes, there are many more options available such as cloud databases.
 - If the data volume grows and touches petabytes, which are millions of gigabytes, then the options of databases shrink. PostgreSQL and Oracle are some of the databases that can be used.
 
 ### Security
