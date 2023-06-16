@@ -196,3 +196,27 @@ While some arguments support data localization, some feel that data localization
 - **Cost** - One of the main challenge in data localization is cost, which includes building or renting data centers, as well as cost of complying with multiple laws and regulations.
 - **Limited Access** - Data localization can limit access to data as it may not be accessible to users outside the country or region in which it is stored.
 - **Complexity** - It can also be complex to implement as it involves transferring data between different locations.
+
+### API Compatibility
+
+API compatibility of database refers to the ability of different versions of a database to interact with each other using a consistent set of **Application Programming Interfaces**(APIs). API Compatibility ensures that applications built in one version can seamlessly migrate with another version without significant modifications. The level of the API Compatibility can vary depending on the specific database management system(DBMS) being used. Some databases like MySQL and PostgreSQL, have well-defined and widely adopted APIs which are supported by various programming languages and frameworks.
+
+On the other hand, proprietary databases with unique features may have their own APIs that are specific to that particular system. In such cases compatibility may be limited to the applications developed for that database.
+
+To ensure API Compatibility, it is important to consider factor like version of the database software, language and framework being used. It is beneficial to consider the documentation and resources provided by the database to understand the APIs and its compatibility.
+
+### Integration with outside data
+
+Integration with outside data refers to the process of bringing data from multiple source together across an organization to provide a complete, accurate and up-to-date applications and business processes. It includes data replication, ingestion and transformation to combine different type of data to be stored in a target place such as a data warehouse or data lake-house.
+
+Following are the primary approaches to integrate data with external services:
+
+- **ETL** - It is a traditional type of data-pipeline which converts raw data to match the target system via extract, transform and load. This allows for fast and accurate data analysis in the target system and is most appropriate for small datasets which requires complex transformations.
+
+- **ELT** - This is also a data pipeline that supports immediately load and transformation of data within target system. This approach is more appropriate when datasets are large and timeliness is important, since loading is quite quicker.
+
+- **Data Streaming** - Instead of loading data into a new target system, data streaming provides continuous flowing of data from source to target.
+
+- **Application Integration** - Application Integration allows separate applications to work together by moving or syncing data between them. Mostly the applications have their APIs for transactions of data, which helps automation tools to maintain integration efficiently.
+
+- **Data Virtualization** - Like Data Streaming, Data Virtualizations also delivers data in time, but only when it is requested by a user or an application. This unifies view of data and makes data available on demand by combining data from different systems.

@@ -4,16 +4,16 @@
 
 1. Refine the outline of the research paper
 2. Consider more criteria for choosing the database
-   - Cost
-   - Concurrency
-   - Load
-   - Learning curve
-   - Security (encryption)
-   - Data localization effects
-   - Host and providers
-   - Replication
-   - API compatibility (Document DB, MongoDB)
-   - Read only DB
-   - Integration with outside data; for example from Kafka streams
-   - Effect to the Environment (carbon footprint)
+   - [x] Cost
+   - [x] Concurrency
+   - [x] Load
+   - [x] Security (encryption)
+   - [x] Data localization effects
+   - [x] API compatibility (Document DB, MongoDB)
+   - [x] Integration with outside data; for example from Kafka streams
+   - [ ] Host and providers
+   - [ ] Learning curve
+   - [ ] Replication
+   - [ ] Read only DB
+   - [ ] Effect to the Environment (carbon footprint)
 3. Background about database (What is the need?)

@@ -126,19 +126,19 @@ To ensure API Compatibility, it is important to consider factor like version of 
 
 ### Integration with outside data
 
-Integration with outside data refers to the process of bringing data from multiple source together across an organization to provide a complete, accurate and up-to-date applications and business processes. It includes data replication, ingestion and transformation to combine different type of data to be stored in a target place such as a data warehouse or data lakehouse.
+Integration with outside data refers to the process of bringing data from multiple source together across an organization to provide a complete, accurate and up-to-date applications and business processes. It includes data replication, ingestion and transformation to combine different type of data to be stored in a target place such as a data warehouse or data lake-house.
 
 The most important thing to consider is what system you need to integrate together? Make sure that the database management system can be integrated with other tools and services also within the project. There are different technologies in the market that have different connectors to integrate with other technologies.
 
-There are generally 5 approaches to integrate data with other services: ETL, ELT, Data Streaming, Application Integration (APIs) and Data Virtualization. Following are the primary approaches to integrate data with external services:
+There are generally 5 approaches to integrate data with other services: ETL, ELT, Data Streaming, Application Integration and Data Virtualization. Following are the primary approaches to integrate data with external services:
 
-- **ETL** - It is a traditional type of data-pipeline which converts raw data to match the target system via extract, transform and load. Data is transform in a staging area before it is loaded into the target place. This allows for fast and accurate data analysis in the target system and is most appropriate for small datasets which requires complex trnasformations.
+- **ETL** - It is a traditional type of data-pipeline which converts raw data to match the target system via extract, transform and load. Data is transform in a staging area before it is loaded into the target place. This allows for fast and accurate data analysis in the target system and is most appropriate for small datasets which requires complex transformations.
 
 - **ELT** - This is also a data pipeline that supports immediately load and transformation of data within target system. This approach is more appropriate when datasets are large and timeliness is important, since loading is quite quicker.
 
 - **Data Streaming** - Instead of loading data into a new target system, Data Streaming provides continuous flowing of data from source to target.
 
-- **Application Integration** - Application Integration allows separate applications to work together by moving or syncing data between them. The most typical use case to support operational needs such as ensuring data to the systems. The Application Integration must provide consistency between the data sets. Mostly the applications have their APIs for trnasactions of data, which helps automation tools to maintain integration efficiently.
+- **Application Integration** - Application Integration allows separate applications to work together by moving or syncing data between them. The most typical use case to support operational needs such as ensuring data to the systems. The Application Integration must provide consistency between the data sets. Mostly the applications have their APIs for transactions of data, which helps automation tools to maintain integration efficiently.
 
 - **Data Virtualization** - Like Data Streaming, Data Virtualizations also delivers data in time, but only when it is requested by a user or application. This can unified view of data and makes data available on demand by combining data from different systems. Both Virtualizations and Streaming support transactional systems built for high performance queries.
 
