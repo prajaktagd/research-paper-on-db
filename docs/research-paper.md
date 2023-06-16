@@ -138,3 +138,11 @@ Security of databases refers to the array of controls, tools, and procedures des
 - Penalties or fines are to be paid for not complying with international regulations.
 - Costs for repairing breaches and notifying consumers about them is high
 - Business can be on hold until the breach is resolved.
+
+#### Common Threats and Challenges
+
+- An insider threat can be an attack on security from any sources having an access privilege to the database.
+- Exploitation of Database Software Vulnerabilities
+- SQL/NoSQL Injection Attacks 
+- Buffer Overflow Attacks
+- Denial of service (DoS/DDoS) attacks 
