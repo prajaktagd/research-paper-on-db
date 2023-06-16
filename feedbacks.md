@@ -11,9 +11,10 @@
    - [x] Data localization effects
    - [x] API compatibility (Document DB, MongoDB)
    - [x] Integration with outside data; for example from Kafka streams
-   - [ ] Host and providers
+   - [x] Replication
+   - [x] Host and providers
    - [ ] Learning curve
-   - [ ] Replication
    - [ ] Read only DB
    - [ ] Effect to the Environment (carbon footprint)
+   - [ ] Scalability
 3. Background about database (What is the need?)

@@ -6,7 +6,6 @@
 - Database selection Criteria
   - Questions to ask while choosing a database
   - Criteria
-  - CAP Theorem
 - Case Studies
 - Conclusion
 - References

@@ -220,3 +220,25 @@ Following are the primary approaches to integrate data with external services:
 - **Application Integration** - Application Integration allows separate applications to work together by moving or syncing data between them. Mostly the applications have their APIs for transactions of data, which helps automation tools to maintain integration efficiently.
 
 - **Data Virtualization** - Like Data Streaming, Data Virtualizations also delivers data in time, but only when it is requested by a user or an application. This unifies view of data and makes data available on demand by combining data from different systems.
+
+### Replication
+
+Database replication involves copying, transferring, or integrating data from one database in a server or computer to another, eventually creating a distributed database. Replication allows users to access the same information, which improves consistency, reliability, and performance. Data replication can either happen once or it can be a continuous process. The result is one or more distributed databases, where users have access to the same information across all database nodes. The original database is called the 'Publisher'. The replicated database is called the 'Subscriber'.
+
+**Data Replication Types**
+
+- Transactional Replication - The distributed database management system (DDBMS) replicates changes or transactions made to the original database on the receiving database in a sequence in near real time.
+
+- Snapshot Replication - The DDBMS captures a 'snapshot' of data from the original database and overwrites it on the receiving database via the same server. 
+
+- Merge Replication - The DDBMS merges data from two or more databases and combines it into a new receiving database. 
+
+### Hosting
+
+Database hosting is providing a managed server that is optimized for running a database. A host can run a web server, mail server, file share, or other file-based application. Databases are different in that they demand specific hardware and software configurations to support the database.
+
+  - A database host must optimize I/O for the specific database and storage platform for optimal performance, growth and internal resiliency.
+
+  - A database host must run certified versions of certified operating systems to ensure your database support licenses are valid.
+
+  - Database hosting providers should be able to help you design a specific backup plan for your database and host based on your recovery requirements.
