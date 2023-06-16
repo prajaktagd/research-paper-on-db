@@ -135,3 +135,10 @@ Some of the things that can be taken into consideration while choosing database:
 ### Security
 
 Security of databases refers to the array of controls, tools, and procedures designed to ensure and safeguard confidentiality, integrity, and accessibility. Security of databases is a complicated and challenging task that requires all aspects of security practices and technologies. The more usable and accessible the database is, the more susceptible we are to threats from security.
+
+#### Why Database Security is Important?
+
+- Recovering reputation after customer's data leak is difficult
+- Penalties or fines are to be paid for not complying with international regulations.
+- Costs for repairing breaches and notifying consumers about them is high
+- Business can be on hold until the breach is resolved.
