@@ -264,3 +264,8 @@ Choosing the most trendy, powerful, and fully featured database to self-host may
 
 Setup, configuration and fine tuning of databases is a lengthy and risky ordeal. Sometimes choosing the “old” organization self-hosted work-horse will pay bigger dividends in the long term when it comes to production stability.
 
+### Learning curve
+
+Evaluate the ease of adoption by assessing factors like documentation, learning curves, and available tools. Choosing a database with a supportive community and an easy learning curve will streamline your development process and accelerate the integration of the database into your project.
+
+Some databases structure and style are very plain because of which they share a gentle learning curve, which is much easier to form a team to manage your database. Whereas some databases, while covering many issues, can sometimes be overwhelming and even confusing. So, to install and run such databases, you’ll have to consider hiring dedicated experts.
