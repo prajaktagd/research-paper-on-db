@@ -13,8 +13,9 @@
    - [x] Integration with outside data; for example from Kafka streams
    - [x] Replication
    - [x] Host and providers
+   - [x] Effect to the Environment (carbon footprint)
+   - [x] Maturity and stability
    - [ ] Learning curve
    - [ ] Read only DB
-   - [ ] Effect to the Environment (carbon footprint)
    - [ ] Scalability
 3. Background about database (What is the need?)

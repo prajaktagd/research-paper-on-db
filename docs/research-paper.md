@@ -257,3 +257,10 @@ Followings are the links between data center and climate change.
 - To cool its 800 data centers, California alone uses the equivalent of 158,000 Olympic-sized swimming pools per year to cool its servers. The water used by the data centers is mostly discharged directly into the sewer - system, causing damage to the environment, the economy and the population.
 - Per year, the water used by a medium-sized data center is equivalent to that of three hospitals!
 - In 2016 (that was 7 years ago!), it was calculated that, data centers consumed globally more electricity than Great Britain alone (416.2 vs 300 TWh).
+
+### Maturity and Stability
+
+Choosing the most trendy, powerful, and fully featured database to self-host maybe tempting, but as long as your organization doesn’t have experience with this database, you may end up regretting it. SQL databases are built on mature technologies that are well known and supported by large developer communities. NoSQL products are not as mature and the technologies not as well supported as SQL products, but NoSQL technologies are making fast inroads into the industry, with developer communities constantly growing.
+
+Setup, configuration and fine tuning of databases is a lengthy and risky ordeal. Sometimes choosing the “old” organization self-hosted work-horse will pay bigger dividends in the long term when it comes to production stability.
+

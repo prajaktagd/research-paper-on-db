@@ -45,7 +45,7 @@ In case you have very high traffic and require very low latency, Cloud providers
 
 If you choose self-hosted deployment, How much experience does your DBA team have with this technology, how mature is it?
 
-Choosing the most trendy, powerful, and fully featured database to self-host maybe tempting, but as long as your orgainization doesn’t have experience with this database, you may end up regretting it.
+Choosing the most trendy, powerful, and fully featured database to self-host maybe tempting, but as long as your organization doesn’t have experience with this database, you may end up regretting it.
 
 Setup, configuration and fine tuning of databases is a lengthy and risky ordeal. Sometimes choosing the “old” organization self-hosted work-horse will pay bigger dividends in the long term when it comes to production stability.
 
