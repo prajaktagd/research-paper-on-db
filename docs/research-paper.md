@@ -269,3 +269,7 @@ Setup, configuration and fine tuning of databases is a lengthy and risky ordeal.
 Evaluate the ease of adoption by assessing factors like documentation, learning curves, and available tools. Choosing a database with a supportive community and an easy learning curve will streamline your development process and accelerate the integration of the database into your project.
 
 Some databases structure and style are very plain because of which they share a gentle learning curve, which is much easier to form a team to manage your database. Whereas some databases, while covering many issues, can sometimes be overwhelming and even confusing. So, to install and run such databases, you’ll have to consider hiring dedicated experts.
+
+### Community 
+
+Consider the strength and vibrancy of the community surrounding a database. A thriving community offers support, resources, and active development, which can be invaluable when facing challenges or seeking enhancements. It also ensures that your requests and feedback are heard and considered in the road-map. A strong database community saves the developer from wasting his time, which indeed results in a quick and smooth development cycle. This criteria plays an important role if you are in a rush or have delivery pressure.

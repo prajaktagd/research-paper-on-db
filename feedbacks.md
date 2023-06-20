@@ -16,7 +16,7 @@
    - [x] Effect to the Environment (carbon footprint)
    - [x] Maturity and stability
    - [x] Learning curve
+   - [x] Community
    - [ ] Read only DB
    - [ ] Scalability
-   - [ ] Community
 3. Background about database (What is the need?)
