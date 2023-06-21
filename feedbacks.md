@@ -3,7 +3,8 @@
 # 7 June 2023
 
 1. Refine the outline of the research paper
-2. Consider more criteria for choosing the database
+2. Background about database (What is the need?)
+3. Consider more criteria for choosing the database
    - [x] Cost
    - [x] Concurrency
    - [x] Load
@@ -19,4 +20,4 @@
    - [x] Community
    - [x] Scalability
    - [ ] Read only DB
-3. Background about database (What is the need?)
+4. Conclusion
