@@ -273,3 +273,7 @@ Some databases structure and style are very plain because of which they share a 
 ### Community 
 
 Consider the strength and vibrancy of the community surrounding a database. A thriving community offers support, resources, and active development, which can be invaluable when facing challenges or seeking enhancements. It also ensures that your requests and feedback are heard and considered in the road-map. A strong database community saves the developer from wasting his time, which indeed results in a quick and smooth development cycle. This criteria plays an important role if you are in a rush or have delivery pressure.
+
+### Scalability
+
+The database is an ever-growing asset for an organization, so it is important to make sure that the DBMS that is being chosen can scale up to accommodate the growing volume as the enterprise grows. While considering this, there might be a need to keep the changing nature of data from structured database formats to unstructured data in mind. So, ensure that unconventional DBMS systems are considered too, which can effectively handle unstructured or semi-structured data. The NoSQL and NewSQL databases are now focused on these needs.

@@ -23,3 +23,4 @@ Add the content link with the proper name here:
 - [Effect on environment](https://crewdle.com/blog/the-impact-of-data-centres-on-the-environment)
 - [Performance](https://www.dbta.com/Columns/DBA-Corner/The-5-Key-Factors-for-Database-Performance-134830.aspx)
 - [How to Choose a Database for Your Needs?](https://medium.com/memgraph/how-to-choose-a-database-for-your-needs-4bb059edf3fe)
+- [Scalability](https://themerex.net/wp/what-to-consider-while-choosing-a-database-management-system/)

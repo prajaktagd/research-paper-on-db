@@ -17,6 +17,6 @@
    - [x] Maturity and stability
    - [x] Learning curve
    - [x] Community
+   - [x] Scalability
    - [ ] Read only DB
-   - [ ] Scalability
 3. Background about database (What is the need?)
