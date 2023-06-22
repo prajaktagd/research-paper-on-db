@@ -282,3 +282,9 @@ Consider the strength and vibrancy of the community surrounding a database. A th
 ### Scalability
 
 The database is an ever-growing asset for an organization, so it is important to make sure that the DBMS that is being chosen can scale up to accommodate the growing volume as the enterprise grows. While considering this, there might be a need to keep the changing nature of data from structured database formats to unstructured data in mind. So, ensure that unconventional DBMS systems are considered too, which can effectively handle unstructured or semi-structured data. The NoSQL and NewSQL databases are now focused on these needs.
+
+## Conclusion
+
+To conclude, we will just say that a lot of people think that choosing a database is basically choosing between SQL and no SQL, this is incorrect. Selecting the perfect database requires a comprehensive evaluation of multiple factors, as you saw. Remember, each project is different and the ideal database choice may vary based on specific requirements. The most important factors are to consider the structure of the data, the size of the database, the speed you need to access the data, as well as the scaling of the database. So take the time to thoroughly assess each consideration, and seek expert advice if needed.
+
+With the right database powering the project, there'll be a solid foundation for success and will unlock the full potential of an application.
