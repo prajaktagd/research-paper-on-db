@@ -72,6 +72,8 @@ A centralised database is a database in which the data required to complete all 
 
 Distributed databases store information across different physical sites. The database resides on multiple CPUs on a single site or spread out across various locations. Due to the connections between the distributed databases, the information appears as a single database to end-users. Additionally, if one database fails, users can still access the system through other systems. Common examples of distributed databases include Apache Ignite, Apache Cassandra, Couchbase Server, etc.
 
+![Centralized vs Distributed](../imgs/centralized-vs-distributed.png "Centralized v/s Distributed")
+
 ### Design
 
 **OLTP**
@@ -81,6 +83,8 @@ Online Transaction Processing (OLTP) is a type of database system used in transa
 **OLAP**
 
 Online Analytical Processing (OLAP) is software technology you can use to analyze business data from different points of view. Organizations collect and store data from multiple data sources, such as websites, applications, smart meters, and internal systems. OLAP combines and groups this data into categories to provide actionable insights for strategic planning. For example, a retailer stores data about all the products it sells, such as color, size, cost, and location. The retailer also collects customer purchase data, such as the name of the items ordered and total sales value, in a different system. OLAP combines the datasets to answer questions such as which color products are more popular or how product placement impacts sales.
+
+![OLAP v/s OLTP](../imgs/olap-vs-oltp.png "OLAP v/s OLTP")
 
 ### Hosting
 
@@ -114,6 +118,8 @@ Traditional relational databases are a natural fit for the CA side whereas non-r
 - Consistency means that any read request will return the most recent write. Data consistency is usually “strong” for SQL databases and for NoSQL database consistency may be anything from 'eventual' to 'strong'.
 - Availability means that a non-responding node must respond in a reasonable amount of time. Not every application needs to run 24/7 with 99.999% availability but most likely you will prefer a database with higher availability.
 - Partition tolerance means the system will continue to operate despite network or node failures.
+
+![CAP Theorem](../imgs/cap-theorem.png "CAP Theorem")
 
 ### Cost
 
