@@ -21,3 +21,7 @@
    - [x] Scalability
    - [ ] Read only DB
 4. Conclusion
+5. Improve conclusion 
+  - According to the read only database requirement
+  - If database is already present
+  - New requirements can be implemented in same database or another is needed
