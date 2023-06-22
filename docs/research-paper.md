@@ -1,4 +1,9 @@
-# How to choose a database for your application?
+<!-- # How to choose a database for your application? -->
+# Art of choosing a database
+
+In recent years, the new generation of applications like business intelligence, data warehouses, social networking etc requires processing of terabytes or petabytes of data. This has sparked the market with lots of new types of databases that provide different features for different problems. Choosing a perfect database, among all these databases for your service is one of the most important parameter to consider as it will affect the future of the business and the application. This is where this research paper might help you, by the end of this research paper you would get some knowledge regarding choosing of a database. 
+
+Before going directly to the criteria that you might need to consider while choosing a database. Let's build up context around database, its evolution , types and so on. Please be patience and go through all the points as each one of them is as important as other.
 
 ## What is a database?
 

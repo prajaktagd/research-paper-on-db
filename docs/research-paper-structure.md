@@ -1,7 +1,7 @@
 ## Title
 
 - Selecting Database - An art to know
-- Art of selecting database
+- Art of choosing a  database
 
 ## Abstract 
 
