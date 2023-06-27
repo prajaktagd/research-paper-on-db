@@ -19,7 +19,7 @@
    - [x] Learning curve
    - [x] Community
    - [x] Scalability
-   - [ ] Read only DB
+   - [x] Read only DB
 4. Conclusion
 5. Improve conclusion 
   - According to the read only database requirement

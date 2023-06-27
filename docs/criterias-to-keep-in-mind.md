@@ -143,3 +143,30 @@ There are generally 5 approaches to integrate data with other services: ETL, ELT
 - **Data Virtualization** - Like Data Streaming, Data Virtualizations also delivers data in time, but only when it is requested by a user or application. This can unified view of data and makes data available on demand by combining data from different systems. Both Virtualizations and Streaming support transactional systems built for high performance queries.
 
 For Example, if there is a big analytics job running in **Apache Spark** then probably user want to limit themselves to external systems that can easily connect to Apache Spark.
+
+---
+
+### Read Only Databases
+
+Databases whose architecture or data is not required to be updated should be considered to be set as Read Only Database. Once a database is changed to Read Only Database, nothing will change in the database. So based on that, certain changes should be made to optimize the performance of a Read Only Database. The facts to be consider is:
+
+* Statistics will not be automatically updated (nor required) and user would not be able to update statistics of Read Only database
+* **Read Only** Database will not shrink automatically or manually
+* User will not be able to create indexes
+* User will not be able to defragment indexes of a Read Only Database
+* Read Only Databases will not allow user to add any extended properties on any of its objects
+* Permissions may not be edited and users may not be added or removed from a Read ONly Database
+
+So, it is required to complete such tasks before someone set the database to Read Only mode. And there will be some factsto consider while working with a backup of a Read Only Database, those are as follows:
+
+* User can create any type of backup (full, differential, log) of a Database in Read Only state. However considering the Read Only state user may want to have a different backup plan than that of a Read Write database. Consider using simple recovery mode along with only full backups
+* A full backup of a Read Only Database would be recovered as a Read Only Database. Recovered database may be changed to Read Write mode later
+* A full backup of a Read Write Database over a Read Only Database would make the target database Read Write , so user may need to change the state of the database again
+
+Along with these there are some performance benefits of Read Only state, those are:
+
+* As there are no data modifications in Read Only state, Database servers would not have to bother with locks
+* User can create additional indexes to optimize data retrieval without worrying about degradation of data modifications and index maintenance
+* User can copy data and log files of a Read Only database while the database is online
+
+Even after the precautions, preconsiderations and preparations, if there is a need to change the mode from Read Only to Read Write, it can be performed using different database tools.
